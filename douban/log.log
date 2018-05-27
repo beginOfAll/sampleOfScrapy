@@ -1,0 +1,116 @@
+2018-02-13 17:19:36 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: douban)
+2018-02-13 17:19:36 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.3.1, w3lib 1.18.0, Twisted 17.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Linux-4.13.0-32-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-02-13 17:19:36 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'douban.spiders', 'SPIDER_MODULES': ['douban.spiders'], 'ROBOTSTXT_OBEY': True, 'LOG_FILE': './log.log', 'BOT_NAME': 'douban'}
+2018-02-13 17:19:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-02-13 17:19:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-13 17:19:36 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-13 17:19:36 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-02-13 17:19:36 [scrapy.core.engine] INFO: Spider opened
+2018-02-13 17:19:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-13 17:19:36 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-02-13 17:19:37 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://movie.douban.com/robots.txt> (referer: None)
+2018-02-13 17:19:37 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://movie.douban.com/chart> (referer: None)
+2018-02-13 17:19:37 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://movie.douban.com/chart>: HTTP status code is not handled or not allowed
+2018-02-13 17:19:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-02-13 17:19:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 445,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 496,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/403': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 2, 13, 9, 19, 37, 422352),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'memusage/max': 1178599424,
+ 'memusage/startup': 1178599424,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 2, 13, 9, 19, 36, 975262)}
+2018-02-13 17:19:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-02-13 17:21:19 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: douban)
+2018-02-13 17:21:19 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.3.1, w3lib 1.18.0, Twisted 17.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Linux-4.13.0-32-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-02-13 17:21:19 [scrapy.crawler] INFO: Overridden settings: {'ROBOTSTXT_OBEY': True, 'LOG_ENABLED': False, 'SPIDER_MODULES': ['douban.spiders'], 'NEWSPIDER_MODULE': 'douban.spiders', 'BOT_NAME': 'douban', 'LOG_FILE': './log.log'}
+2018-02-13 17:21:19 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-02-13 17:21:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-13 17:21:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-13 17:21:19 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-02-13 17:21:19 [scrapy.core.engine] INFO: Spider opened
+2018-02-13 17:21:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-13 17:21:19 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-02-13 17:21:20 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://movie.douban.com/robots.txt> (referer: None)
+2018-02-13 17:21:20 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://movie.douban.com/chart> (referer: None)
+2018-02-13 17:21:20 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://movie.douban.com/chart>: HTTP status code is not handled or not allowed
+2018-02-13 17:21:20 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-02-13 17:21:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 445,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 496,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/403': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 2, 13, 9, 21, 20, 400861),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'memusage/max': 1208827904,
+ 'memusage/startup': 1208827904,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 2, 13, 9, 21, 19, 906232)}
+2018-02-13 17:21:20 [scrapy.core.engine] INFO: Spider closed (finished)
