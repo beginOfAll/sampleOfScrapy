@@ -1,0 +1,2 @@
+input: 播放歌曲一百二十三木头人王建忠
+{"semantics":{"request":{"slotcount":4,"domain":"音乐","action":"音乐","param":{"操作":"播放","对象":"音乐","__act__":"inform","歌曲名":"一百二十三木头人王建忠"}}},"version":"2018.4.21.18:20:33","systime":94.9150390625,"input":"播放歌曲一百二十三木头人王建忠","res":"airobot.0.4.3"}

@@ -1,0 +1,2 @@
+input: 播放歌曲王建忠真帅
+{"semantics":{"request":{"slotcount":4,"domain":"音乐","action":"音乐","param":{"操作":"播放","对象":"音乐","__act__":"inform","歌曲名":"王建忠真帅"}}},"version":"2018.4.21.18:20:33","systime":46.6279296875,"input":"播放歌曲王建忠真帅","res":"airobot.0.4.3"}
